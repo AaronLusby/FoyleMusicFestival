@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets & Camping</title>
+    <link rel="stylesheet" href="ticket.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="brand"> Foyle Music Festival</div>
+        <nav class="site-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="LineUp.html">Line-Up</a></li>
+                <li><a href="Tickets.html">Tickets &amp; Camping</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>        
+        </nav>
+    </header>
+    
+    <section intro="Ticket">
+        <div class="wrapper">
+            <h1>TICKETS</h1>
+        </div>
+        <h2>Ticket-Type Description</h2>
+        <h3><strong>Standard</strong></h3>
+        <h4>Standard Ticket grants you basic access to the festival and amenities</h4>
+        <h3><strong>Priority Entry</strong></h3>
+        <h4>Priority Entry Ticket is similar to Standard Ticket but has a faster entry time to the festival</h4>
+        <h3><strong>Back-Stage Access</strong></h3>
+        <h4>Back-Stage Access gives you access to behind the stage</h4>
+        <h3><strong>VIP</strong></h3>
+        <h4>VIP grants you faster entry, Access to all amemities, Back-Stage Access or A chance to Meet the Singers and a Camping area with prebuilt tents</h4>
+        </section>
+        
+        <section intro="ticket type">
+        </div>
+        <section>
+            <label for="Ticket-Type">Choose an Entry Pass:</label>
+            <select id="Ticket-Type">
+                <option value="Standard">Standard</option>
+                <option value="Priority Entry">Priority Entry</option>
+                <option value="Back-Stage Access">Back-Stage Access</option>
+                <option value="VIP">VIP</option>
+            </select>
+        </section>
+
+    </section>  
+    <div class="ticket">
+    <h2>Adult Pass</h2>
+    <p class="price">£60</p>
+    <p>1 Adult pp</p>
+    <label>Quantity:</label><br>
+    <input type="number" min="0" value="0" class="qty" data-price="60">
+  </div> 
+    
+    <div class="ticket">
+    <h2>Child Pass</h2>
+    <p class="price">£30</p>
+    <p>1 Child pp</p>
+    <label>Quantity:</label><br>
+    <input type="number" min="0" value="0" class="qty" data-price="30">
+  </div> 
+
+    <div class="ticket">
+    <h2>Family Pass</h2>
+    <p class="price">£150</p>
+    <p>2 Adults + 2 Children</p>
+    <label>Quantity:</label><br>
+    <input type="number" min="0" value="0" class="qty" data-price="150">
+  </div> 
+            <div class="summary">
+                <h2>Total Price</h2>
+                <p id="total">£0</p>
+            </div>
+    </div>
+    <footer class="site-footer">
+        <p><a href="#top"> Back to top </a></p>
+        <p>&copy;2026 Music Festival</p>
+    </footer>
+
+</body>
+</html>
